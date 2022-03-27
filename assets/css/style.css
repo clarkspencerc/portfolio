@@ -114,6 +114,32 @@ footer {
     margin: 0 auto 0 40px; 
 }
 
+.projects {
+    width: 90%; 
+    margin: 0 auto; 
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content:center;
+}
+
+.project a, img{
+    margin: 8px; 
+    flex: 1 50%;
+}
+.project a, img{
+    width: 50%; 
+} 
+#first-project img{
+    flex: 0 1 100%; 
+    border: 3px solid var(--tertiary-color);
+    width: 80%;
+}
+
+.project h3 {
+    color:#19647e; 
+    margin:0 auto 0 20px;
+}
+
 .section-title {
     font-size: 58px;
     color: var(--secondary-color);
@@ -121,4 +147,9 @@ footer {
     margin: 0 auto 12px 20px; 
     width: 40%; 
     justify-content: flex-start;
+}
+
+.flex-row {
+    display:flex; 
+    margin: 0 auto 0 20px; 
 }
