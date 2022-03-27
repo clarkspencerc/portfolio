@@ -22,20 +22,17 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky; 
-    position: sticky; 
     top: 0 ; 
     background-color: var(--primary-color);
-    background-position: 70%;
-    z-index: 8000; 
+  
 }
 
 h1{
     font-size: 100px; 
     color: var(--quadtary-color);
-    margin: 0;
+    margin-left: 20px;
     align-items: center;
 }
 
@@ -51,7 +48,7 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     list-style: none;
 }
@@ -105,13 +102,23 @@ footer {
 }
 
 .about {
-    margin-top: 20px;
+    margin: 20px auto 20px auto;
+    width: 95%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+.about p {
+    margin: 0 auto 0 40px; 
 }
 
 .section-title {
     font-size: 58px;
     color: var(--secondary-color);
     padding: 20px 0;
-    margin: 0 auto 14px 40px; 
+    margin: 0 auto 12px 20px; 
     width: 40%; 
+    justify-content: flex-start;
 }
